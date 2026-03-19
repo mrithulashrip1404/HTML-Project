@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="stylesheet" href="sys.css">
+</head>
+<body>
+
+    <header>🎈 RSVP 🎈</header>
+
+    <p class="highlight-text">
+        <strong>Let us know if you’ll be joining the celebration! 🥳</strong>
+    </p>
+
+    <div class="content-container">
+        <p class="left-text">
+            Kindly confirm your presence by selecting Yes / No. Your response helps us plan the best celebration ever! 🎊
+        </p>
+
+        <div class="image-container">
+            <center>
+                <img src="D:\FRONT END (HTML)\Home Task\project 2\rsvp.webp" alt="RSVP">
+            </center>
+        </div>
+
+        <p class="right-text">
+            📞 Contact: Mrithulashri - 7305641591 <br>
+            📧 Email: mrithulashrip1404@gmail.com
+        </p>
+    </div>
+
+    <div class="button-container">
+        <button class="rsvp-btn" onclick="document.getElementById('rsvpDialog').showModal();">Confirm RSVP</button>
+    </div>
+
+    <dialog id="rsvpDialog" class="dialog-box">
+        <p>✅ Thank you for your RSVP! See you at the party! 🎉</p>
+        <button onclick="document.getElementById('rsvpDialog').close();">OK</button>
+    </dialog>
+
+    <a href="project2.html" class="back-link">⬅ Back to Home</a>
+
+</body>
+</html>
